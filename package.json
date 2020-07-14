@@ -1,0 +1,16 @@
+{
+  "name": "lcov-write",
+  "version": "1.0.0",
+  "description": "Write JSON to LCOV files",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "author": "Rui Gonçalves <ruippeixotog@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cobertura-parse": "^1.0.5",
+    "lcov-parse": "^1.0.0",
+    "mocha": "^8.0.1"
+  }
+}
